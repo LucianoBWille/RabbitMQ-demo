@@ -1,0 +1,7 @@
+POST http://localhost:3001/rabbit-publish
+Content-Type: application/json
+
+{
+    "client": "Fulano de Tal",
+    "amount": 100000
+}
